@@ -72,8 +72,15 @@ p{
     text-align: left;
 }
 
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+
 @media (max-width: 1028px){
-    #title{
+    #title  .container-fluid{
         text-align: center;
     }
 
@@ -96,13 +103,6 @@ p{
 
 .feature-title{
     font-size: 1.5rem;
-}
-
-.title-image{
-    width: 60%;
-    transform: rotate(25deg);
-    position:absolute;
-    right:30%;
 }
 
 .features-img{
